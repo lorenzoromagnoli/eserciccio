@@ -45,15 +45,15 @@ var testDate=function(str){
 
 ## esercizio 3
 #### frontend (js)
-- il form è quì
-- il codice js quì
+- il form è [qui](https://github.com/lorenzoromagnoli/eserciccio/blob/master/form.html#L62)
+- il codice js [qui](https://github.com/lorenzoromagnoli/eserciccio/blob/master/js/main.js)
 
 ## esercizio 3
 #### frontend (css)
 - layout realizzato è [quì](https://lorenzoromagnoli.github.io/eserciccio/)
-- html quì
-- e css quì
+- html [qui](https://github.com/lorenzoromagnoli/eserciccio/blob/master/index.html)
+- e css [qui](https://github.com/lorenzoromagnoli/eserciccio/blob/master/css/main.css)
 
 ## esercizio 4
 #### backend
-- il php quì
+- il php [qui](https://github.com/lorenzoromagnoli/eserciccio/blob/master/backend.php)
