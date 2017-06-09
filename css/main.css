@@ -1,0 +1,149 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: auto;
+    max-width: 1024px;
+    padding: 0 15px;
+}
+
+#nav {
+    background-color: #EF3B39;
+    height: 80px;
+}
+
+#nav .brand {
+    float: left;
+    margin-top: 30px;
+}
+
+#nav .brand img {
+    height: 37px;
+}
+
+#main-nav {
+    float: right;
+    margin-top: 50px;
+    position: relative;
+}
+
+#main-nav a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+#main-nav a:active, #main-nav a:hover {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.row {
+    margin: 0px -15px;
+}
+
+.col {
+    display: table-cell;
+    padding: 0px 15px;
+}
+
+.col-8 {
+    width: 66%
+}
+
+.col-4 {
+    width: 33%
+}
+
+.responsive-image {
+    width: 100%;
+    margin: 20px 0px
+}
+
+.pageHeader {
+    margin-top: 45px;
+}
+
+#main-content{
+  padding-bottom: 50px;
+}
+#main-content .text {
+    column-count: 2;
+}
+
+#social-sidebar .responsive-image {
+    border: 1px solid #aaa;
+    margin: 0px;
+}
+
+#main-content .contacts {
+    text-align: center;
+}
+
+button {
+    background-color: #EF3B39;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    border-bottom: 4px solid #C90705;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding: 7px 20px;
+    transition: all .2s;
+}
+
+button:hover {
+    border-bottom: 0px solid #C90705;
+    margin-top: 4px;
+}
+#main-nav.mobile{
+  display: none;
+  }
+
+
+@media only screen and (max-width: 500px) {
+    #social-sidebar {
+        display: none;
+    }
+
+    #main-content .text {
+      column-count: 1;
+    }
+    #nav{
+      height: 85px;
+      text-align: center;
+      padding: 25px 5px;
+    }
+    #nav .brand{
+      margin: auto;
+      float: none;
+    }
+    #main-nav.desktop{
+      display: none;
+    }
+
+    #main-nav.mobile{
+      display: block;
+      margin-top: 25px;
+    }
+    #main-nav a{
+      font-size: 0.7em;
+    }
+    button{
+      width: 100%;
+    }
+
+}
