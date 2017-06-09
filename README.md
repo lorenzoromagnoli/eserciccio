@@ -50,7 +50,7 @@ var testDate=function(str){
 
 ## esercizio 3
 #### frontend (css)
-- layout realizzato è quì
+- layout realizzato è [quì](https://lorenzoromagnoli.github.io/eserciccio/)
 - html quì
 - e css quì
 
